@@ -4,3 +4,16 @@
 .contact-card{background:#f4f9fc;border:1px solid #dceaf3;border-radius:16px;padding:30px}.contact-card span{display:block;font-size:11px;letter-spacing:.18em;font-weight:800;color:#687c91;margin:26px 0 8px}
 .contact-card a{display:block;font-size:clamp(22px,3vw,32px);font-weight:800;color:#128fc7;overflow-wrap:anywhere}.contact-card small{display:block;margin-top:22px;color:#718195;line-height:1.5}
 @media(max-width:900px){.contact-grid{grid-template-columns:1fr;gap:28px}}@media(max-width:640px){.contact-section{padding:60px 0}.contact-card{padding:24px}}
+
+
+.supporters-section{padding:82px 0;background:#f4f9fc;border-top:1px solid #e3edf4}
+.supporters-heading{max-width:760px;margin:0 auto 42px;text-align:center}
+.supporters-heading h2{font-size:clamp(38px,5vw,62px);line-height:1;letter-spacing:-.045em;margin:0 0 18px}
+.supporters-heading>p:last-child{font-size:18px;line-height:1.65;color:#58697e}
+.supporter-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.supporter{display:flex;align-items:center;justify-content:center;min-height:92px;padding:18px;text-align:center;background:#fff;border:1px solid #dceaf3;border-radius:14px;font-size:17px;font-weight:800;color:#263d55;box-shadow:0 5px 18px rgba(30,70,100,.04)}
+.artist-support{max-width:900px;margin:48px auto 0;padding-top:32px;border-top:1px solid #d7e5ee;text-align:center}
+.artist-names{font-size:18px;line-height:1.8;color:#40566d}
+.artist-names span{padding:0 8px;color:#128fc7}
+@media(max-width:900px){.supporter-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:560px){.supporters-section{padding:60px 0}.supporter-grid{grid-template-columns:1fr}.supporter{min-height:72px}}
